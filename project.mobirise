@@ -639,7 +639,7 @@
               "border-radius": "0px !important",
               "padding": "1rem 3rem",
               "margin": "0.4rem .8rem !important",
-              "transition": "color .3s",
+              "transition": "color 0.3s",
               "border": "1px solid @tabsColor",
               "&:hover": {
                 "background": "#f2f2f2"
