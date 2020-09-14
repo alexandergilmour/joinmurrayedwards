@@ -48,7 +48,7 @@
         "url": "https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
       }
     ],
-    "uniqCompNum": 61,
+    "uniqCompNum": 62,
     "versionPublish": "4.11.2",
     "screenshot": "screenshot.png",
     "favicon": "",
@@ -91,39 +91,6 @@
           "_global": false,
           "_once": false,
           "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".mbr-text, blockquote": {
-              "color": "#767676"
-            }
-          },
-          "_name": "content1",
-          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"></div>\n        </div>\n    </div>\n</section>",
-          "_cid": "sazh3iPzWi",
-          "_anchor": "content1-1o",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "_customTemplate": true,
-          "_afterNavbarItem": false,
-          "_customHTML": "\n<div>    \n<ul>\n        <li><a href=\"https://www.facebook.com/MurrayEdwardsCollege?ref=ts&amp;fref=ts\"><span></span></a></li>\n        <li><a href=\"https://twitter.com/MECCambridge\"><span></span></a></li>\n        <li><a href=\"https://uk.pinterest.com/MurrayEdsEvents/\"><span></span></a></li>\n        <li><a href=\"https://www.instagram.com/meccambridge/\"><span></span></a></li>\n        <li><a href=\"https://www.linkedin.com/groups/3268982\"><span></span></a></li>\n        <li><a href=\"https://www.flickr.com/photos/murrayedwardscollege\"><span></span></a></li>\n    </ul>\n</div>\n\n<!-- \n1 fb: \\f09a\n2 twitter: \\f099\n3 pin: \\f231\n4 insta: \\f16d\n5 linked: \\f0e1\n6 flickr: \\f16e\n-->",
-          "_customCSS": "\n.my-image {\n  width: 100%;\n}\n\n@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');\n\nbody {\n    margin: 0;\n    padding: 0;\n    background: #f1f1f1;\n}\nul {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    margin: 0;\n    padding: 0;\n    display: flex;\n}\nul li {\n    position: relative;\n    list-style: none;\n    margin: 0 2px;\n}\nul li::before {\n    content: '';\n    position: absolute;\n    left: 0;\n    bottom: -4px;\n    width: 40px;\n    height: 8px;\n    background: #000;\n    border-radius: 50%;\n    transition: 0.5s;\n    opacity: 0;\n    filter: blur(2px);\n    transform: scale(0.8);\n}\nul li:hover::before {\n    transition-delay: 0.2s;\n    opacity: 0.2;\n    transform: scale(1);\n}\nul li a {\n    width: 40px;\n    height: 40px;\n    display: block;\n    transition: 0.5s;\n}\nul li:hover a {\n    transform: translateY(-10px);\n}\nul li a span  {\n    width: 100%;\n    height: 100%;\n}\nul li a span::before {\n    font-family: fontAwesome;\n    text-align: center;\n    line-height: 40px;\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n    background: #fff;\n    color: #262626;\n    transform-origin: top;\n    transition: transform 0.5s;\n}\nul li:hover a span::before {\n    transform: rotateX(90deg) translateY(-50%);\n}\nul li a span::after {\n    font-family: fontAwesome;\n    text-align: center;\n    line-height: 40px;\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n    /* background: #fff;\n    color: #262626; */\n    transform-origin: bottom;\n    transition: transform 0.5s;\n    transform: rotateX(90deg) translateY(50%);\n}\nul li:hover a span::after {\n    transform: rotateX(0deg) translateY(0);\n}\nul li:nth-child(1) a span::before,\nul li:nth-child(1) a span::after {\n    content: '\\f09a';\n}\nul li:nth-child(2) a span::before,\nul li:nth-child(2) a span::after {\n    content: '\\f099';\n}\nul li:nth-child(3) a span::before,\nul li:nth-child(3) a span::after {\n    content: '\\f231';\n}\nul li:nth-child(4) a span::before,\nul li:nth-child(4) a span::after {\n    content: '\\f16d';\n}\nul li:nth-child(5) a span::before,\nul li:nth-child(5) a span::after {\n    content: '\\f0e1';\n}\nul li:nth-child(6) a span::before,\nul li:nth-child(6) a span::after {\n    content: '\\f16e';\n}\nul li:nth-child(1) a span::after {\n    background: #3b5999;\n    color: #fff;\n}\nul li:nth-child(2) a span::after {\n    background: #55acee;\n    color: #fff;\n}\nul li:nth-child(3) a span::after {\n    background: #dd4b39;\n    color: #fff;\n}\nul li:nth-child(4) a span::after {\n    background: #c13584;\n    color: #fff;\n}\nul li:nth-child(5) a span::after {\n    background: #2867b2;\n    color: #fff;\n}\nul li:nth-child(6) a span::after {\n    background: #ff0084;\n    color: #fff;\n}\n\n\n\n\n",
-          "alias": "code-editor",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "pro.custom-html",
-          "_anchor": "custom-html-1m",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": []
         },
         {
           "alias": false,
@@ -570,7 +537,7 @@
             }
           },
           "_name": "content4",
-          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-10\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\"></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">Murray Edwards is a College for people like you – bright women from a variety of backgrounds who want to work hard to achieve their potential while making the most of the amazing opportunities offered at Cambridge.</h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-10\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\"></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">Murray Edwards is a College for people like you – bright women from a variety of backgrounds who want to work hard to achieve their potential while making the most of the amazing opportunities offered at Cambridge.</h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "sauMWXDDXj",
           "_anchor": "content4-4",
           "_PHPplaceholders": [],
@@ -1449,7 +1416,7 @@
               "padding-bottom": "2.5rem"
             },
             ".mbr-text": {
-              "color": "#767676",
+              "color": "#232323",
               "margin": "0",
               "padding-top": "0.5rem"
             },
