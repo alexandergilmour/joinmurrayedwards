@@ -574,11 +574,7 @@
             },
             "@media (max-width: 768px)": {
               ".image-block": {
-                "width": "100% !important"
-              },
-              ".mbr-figure img, .card-img img": {
-                "width": "25% !important",
-                "margin-left": "110px"
+                "width": "25% !important"
               }
             }
           },
