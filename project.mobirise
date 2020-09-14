@@ -740,6 +740,10 @@
             },
             ".card-title": {
               "text-align": "left"
+            },
+            "a.text-black:hover, a.text-black:focus": {
+              "color": "#769bb1 !important",
+              "transition-duration": "0.25s"
             }
           },
           "_name": "services1",

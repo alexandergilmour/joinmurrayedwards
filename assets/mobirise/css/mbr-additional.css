@@ -1273,6 +1273,11 @@ section.lazy-placeholder:after {
 .cid-sav0BnfvdO .card-title {
   text-align: left;
 }
+.cid-sav0BnfvdO a.text-black:hover,
+.cid-sav0BnfvdO a.text-black:focus {
+  color: #769bb1 !important;
+  transition-duration: 0.25s;
+}
 .cid-savwPym2Bm {
   padding-top: 60px;
   padding-bottom: 15px;
