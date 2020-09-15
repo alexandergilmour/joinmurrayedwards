@@ -1768,6 +1768,7 @@ section.lazy-placeholder:after {
 .cid-saEtrtvpH1 {
   padding-top: 120px;
   padding-bottom: 105px;
+  background-image: url("../../../assets/images/m-15-2000x1328.jpeg");
 }
 .cid-saEtrucB8i .navbar {
   background: #769bb1;
@@ -2177,25 +2178,9 @@ section.lazy-placeholder:after {
 .cid-saEtrucB8i .dropdown-item:hover {
   color: #f7ed4a !important;
 }
-.cid-saEtruHQNR {
-  padding-top: 60px;
-  padding-bottom: 15px;
-  background-color: #ffffff;
-}
-.cid-saEtruHQNR .mbr-section-subtitle {
-  color: #767676;
-  line-height: 1.7;
-  font-weight: 300;
-  font-size: 30px;
-}
-@media (max-width: 768px) {
-  .cid-saEtruHQNR .mbr-section-subtitle {
-    font-size: 20px !important;
-  }
-}
 .cid-saEtruUY4g {
   background: #ffffff;
-  padding-top: 30px;
+  padding-top: 75px;
   padding-bottom: 0px;
 }
 .cid-saEtruUY4g .image-block {
