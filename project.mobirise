@@ -1450,7 +1450,8 @@
               }
             },
             "H2": {
-              "text-align": "left"
+              "text-align": "left",
+              "font-weight": "400"
             },
             "H5": {
               "text-align": "left"
