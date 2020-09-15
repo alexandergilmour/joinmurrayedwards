@@ -1589,6 +1589,11 @@
             ".pb-3": {
               "font-size": "20px",
               "font-weight": "300"
+            },
+            ".copyright a": {
+              "@media (max-width: 767px)": {
+                "font-size": "10px !important"
+              }
             }
           },
           "_name": "footer1",
