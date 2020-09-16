@@ -1165,7 +1165,8 @@ section.lazy-placeholder:after {
   background-color: #ffffff;
 }
 .cid-sayJeYNpOF .mbr-section-text {
-  color: #767676;
+  color: #149dcc;
+  font-weight: 300;
 }
 .cid-sayJeYNpOF .mbr-section-subtitle {
   color: #767676;
@@ -2298,7 +2299,7 @@ section.lazy-placeholder:after {
   font-weight: 300;
 }
 .cid-saEu3vHFU5 .timeline-text-content {
-  padding: 2rem 2.5rem;
+  padding: 20px 40px 40px 40px;
   background: #efefef;
   margin-left: 2rem;
   font-weight: 300;
@@ -2414,6 +2415,12 @@ section.lazy-placeholder:after {
 }
 .cid-saEu3vHFU5 .mbr-timeline-date {
   font-size: 1.5em;
+}
+.cid-saEu3vHFU5 ul,
+.cid-saEu3vHFU5 ol,
+.cid-saEu3vHFU5 pre,
+.cid-saEu3vHFU5 blockquote {
+  margin-bottom: 0;
 }
 .cid-saEwgTnamr {
   padding-top: 0px;
