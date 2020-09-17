@@ -1329,6 +1329,11 @@ section.lazy-placeholder:after {
 .cid-savr2MNeyE .display-2 {
   font-weight: normal;
 }
+@media (max-width: 768px) {
+  .cid-savr2MNeyE ul {
+    padding-left: 22px;
+  }
+}
 .cid-savsr4Yy75 {
   padding-top: 15px;
   padding-bottom: 60px;
@@ -1458,6 +1463,11 @@ section.lazy-placeholder:after {
     -webkit-flex-basis: 100%;
     padding-left: 0;
     padding-bottom: 2rem;
+  }
+}
+@media (max-width: 768px) {
+  .cid-savmCRahtj ul {
+    padding-left: 22px;
   }
 }
 .cid-say4ZBGNyp {
