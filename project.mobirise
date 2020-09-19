@@ -801,6 +801,7 @@
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
+            "padding-left": "70px",
             "background-color": "@bgColor",
             ".counter-container": {
               "color": "#767676",
@@ -850,6 +851,9 @@
             },
             ".display-5": {
               "font-size": "1.1rem"
+            },
+            "@media (max-width: 768px)": {
+              "padding-left": "15px"
             }
           },
           "_name": "content12",
