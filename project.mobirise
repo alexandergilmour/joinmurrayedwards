@@ -847,6 +847,9 @@
             },
             "H3": {
               "font-weight": "200"
+            },
+            ".display-5": {
+              "font-size": "1.1rem"
             }
           },
           "_name": "content12",
