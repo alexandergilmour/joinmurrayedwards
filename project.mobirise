@@ -1362,6 +1362,9 @@
             },
             ".display-2": {
               "font-weight": "normal"
+            },
+            "a": {
+              "font-weight": "300"
             }
           },
           "_name": "content4",
